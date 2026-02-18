@@ -16,6 +16,9 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Name
 
 ## Lab Summary
+In this lab it was a bit more hands on as we had to code our top file, uncomment our constraints,
+write our circuit a and b code. Overall, we learned how to assemble our own Verilog modules, how constraint file maps
+inputs and outputs to pins on the FGPA
 
 ## Lab Questions
 
@@ -27,4 +30,5 @@ The purpose of the constraints file is how the synthesizer maps to the hardware 
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 
-Yes the selection of our Minterm and Maxterm where correct for each circuit. Our SOP (~C
+Yes the selection of our Minterm and Maxterm where correct for each circuit. Our SOP (~C & ~D) | (A & B) | (B & ~D)
+and our POS (D) & (~A) was the most simplified version. This is what I would've chosen.
