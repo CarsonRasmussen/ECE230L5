@@ -20,8 +20,11 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
+It connects the circuits together, a and b, to each other and to the switches.
 
 ### 2 - Explain the function of the Constraints file.
+The purpose of the constraints file is how the synthesizer maps to the hardware so it knows how to wire things up.
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 
+Yes the selection of our Minterm and Maxterm where correct for each circuit. Our SOP (~C
